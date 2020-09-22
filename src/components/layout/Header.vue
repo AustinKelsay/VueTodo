@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <h1>Vue Todo!</h1>
+        <h1>VueTodo</h1>
     </header>
 </template>
 

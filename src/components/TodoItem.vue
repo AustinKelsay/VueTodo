@@ -1,10 +1,10 @@
+// $emit lets us pass an event (with a prop) up a level in our component tree
 <template>
     <div class="todo-item" 
     v-bind:class="{'is-complete':todo.completed}">
         <p>
             <input type="checkbox" v-on:change="markComplete">
             {{todo.title}}
-            // $emit lets us pass an event (with a prop) up a level in our component tree
             <button @click="$emit('del-todo', todo.id)" class="del">x</button>
         </p>
     </div>
